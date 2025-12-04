@@ -49,18 +49,18 @@ Main entry point: `AIUploadSystem` React component.
 
 ```mermaid
 graph TB
-    U[User] --> UI[Upload UI (React)]
+    U[User] --> UI[Upload UI React]
     UI --> DZ[Dropzone / File Picker]
     UI --> SM[Upload State Manager]
 
     SM --> CHM[Chunk Manager]
-    CHM --> NET[Network Layer (Axios)]
-    NET --> BE[(Backend API)]
+    CHM --> NET[Network Layer Axios]
+    NET --> BE[Backend API]
 
     SM --> VIS[Visual Components]
     VIS --> PB[Progress Bar]
     VIS --> CG[Chunk Grid]
-    VIS --> CTL[Controls (Pause/Resume/Retry)]
+    VIS --> CTL[Controls Pause/Resume/Retray]
 ```
 
 ### Key Ideas
