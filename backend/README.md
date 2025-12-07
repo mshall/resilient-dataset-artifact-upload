@@ -471,7 +471,7 @@ Or using Docker Compose from repo root:
 docker-compose up --build
 ```
 
-The backend will be available at: `http://localhost:3000`.
+The backend will be available at: `http://localhost:5000`.
 
 ---
 
